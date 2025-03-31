@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Espelho Fashion</title>
+		<style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+            
+            body {
+                font-family: 'Poppins', sans-serif;
+                margin: 0;
+                padding: 0;
+                color: #333;
+                line-height: 1.6;
+            }
+            
+            header {
+                background-color: #f8f8f8;
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid #e1e1e1;
+            }
+            
+            header figure {
+                margin: 0;
+                display: flex;
+                align-items: center;
+            }
+            
+            header img {
+                height: 50px;
+            }
+            
+            .sacola {
+                font-weight: 500;
+                color: #666;
+            }
+            
+            .menu-opcoes ul {
+                list-style: none;
+                display: flex;
+                gap: 20px;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .menu-opcoes a {
+                text-decoration: none;
+                color: #333;
+                font-weight: 500;
+                transition: color 0.3s;
+            }
+            
+            section {
+                max-width: 1200px;
+                margin: 30px auto;
+                padding: 0 20px;
+                text-align: left;
+                display: flex;
+            }
+            
+            article {
+                flex: 3;
+                padding-right: 20px;
+            }
+            
+            aside {
+                flex: 1;
+                background-color: #f5f5f5;
+                padding: 20px;
+                border-left: 1px solid #e1e1e1;
+            }
+            
+            aside h3 {
+                margin-top: 0;
+                color: #e67e22;
+            }
+            
+            figure {
+                margin: 20px 0;
+                text-align: center;
+            }
+            
+            figure img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            }
+            
+            article figure img {
+                border: 5px solid #f8f8f8;
+                padding: 10px;
+                background-color: white;
+                max-width: 80%;
+            }
+            
+            figcaption {
+                font-style: italic;
+                color: #666;
+                margin-top: 10px;
+            }
+            
+            h2 {
+                color: #2c3e50;
+                border-bottom: 2px solid #e67e22;
+                padding-bottom: 10px;
+            }
+            
+            em {
+                font-style: normal;
+                font-weight: 700;
+                color: #e67e22;
+            }
+
+            p em:contains("região sul do Brasil") {
+                color: #3498db;
+            }
+
+            footer {
+                background-color: #2c3e50;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                margin-top: 30px;
+            }
+            
+            footer p {
+                margin: 0;
+            }
+            
+		</style>
+	</head>
+	<body>
+		<header>
+			<figure><img src="img/logo.png" alt="Logo da Espelho Fashion"></figure>
+			<nav class="menu-opcoes">
+				<ul>
+					<li><a href="https://www.espelhofashion.com.br/conta">Sua Conta</a></li>
+					<li><a href="https://www.espelhofashion.com.br/wishlist">Lista de Desejos</a></li>
+					<li><a href="https://www.printi.com.br/cartao-fidelidade">Cartão Fidelidade</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="ajuda.html">Ajuda</a></li>
+				</ul>
+			</nav>
+			<p class="sacola">Nenhum item na sacola de compras</p>
+		</header>
+		<section>
+			<article>
+				<p>Compre suas roupas e acessórios na Espelho Fashion. Acesse nossa loja virtual ou entre em contato se tiver dúvidas. Conheça também nossa história e nossos diferenciais.</p>
+				
+				<h2>História</h2>
+				<figure>
+					<img src="img/familia.jpg" alt="Foto da família Pelho">
+					<figcaption>Família Pelho</figcaption>
+				</figure>
+				<p>A fundação em 1932 ocorreu no momento da descoberta econômica do interior do Paraná. A família Pelho, tradicional da região, investiu todas as suas economias nessa nova iniciativa, revolucionária para a época. O fundador <em>Eduardo Simões Pelho</em>, dotado de particular visão administrativa, guiou os negócios da empresa durante mais de 50 anos, muitos deles ao lado de seu filho <em>E. S. Pelho Filho</em>, atual CEO. O nome da empresa é inspirado no nome da família.</p>
+				<p>O crescimento da empresa foi praticamente instantâneo. Nos primeiros 5 anos, já atendia 18 países. Bateu a marca de 100 países em apenas 15 anos de existência. Até hoje, já atendeu 740 milhões de usuários diferentes, em bilhões de diferentes pedidos.</p>
+				<p>O crescimento em número de funcionários é também assombroso. Hoje, é a maior empregadora na <em style="color: #3498db;">região sul do Brasil</em>, mas mesmo após apenas 5 anos de sua existência, já possuía 30 mil funcionários. Fora do Brasil, há 240 mil funcionários, além dos 890 mil brasileiros nas instalações de Jacarezinho e nos escritórios em todo país.</p>
+				<p>Dada a importância econômica da empresa para o Brasil, a família Pelho já recebeu diversos prêmios, homenagens e condecorações. Todos os presidentes do Brasil já visitaram as instalações da Espelho Fashion, além de presidentes da União Européia, Ásia e o secretário-geral da ONU.</p>
+			</article>
+			
+			<aside>
+				<h3>Propaganda</h3>
+				<p>Novas coleções com até 50% de desconto!</p>
+				<figure>
+					<img src="img/propaganda.jpg" alt="Promoção de roupas" style="max-width: 100%;">
+					<figcaption>Aproveite nossas ofertas</figcaption>
+				</figure>
+			</aside>
+		</section>
+		<footer>
+			<p>&copy;Espelho Fashion - Setembro de 2019</p>
+		</footer>
+	</body>
+</html>
