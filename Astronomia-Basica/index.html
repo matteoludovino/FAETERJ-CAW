@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomia Básica - Home</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <h2>Curiosidades</h2>
+        <p>Você sabia que Júpiter tem 79 luas conhecidas?</p>
+        <p>Mercúrio é o planeta mais rápido, completando uma órbita em apenas 88 dias terrestres.</p>
+        <figure>
+            <img src="src/images/telescopio.png " alt="Telescópio Espacial Hubble">
+            <figcaption>Telescópio Espacial Hubble</figcaption>
+        </figure>
+    </aside>
+
+    <main class="main-content">
+        <header>
+            <h1>Astronomia Básica</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="planetas.html">Planetas</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <article class="intro">
+            <h2>Bem-vindo ao Universo!</h2>
+            <p>A astronomia é a ciência que estuda os corpos celestes e os fenômenos que ocorrem no Universo.</p>
+        </article>
+
+        <section class="video-container">
+            <h3>Conheça nosso sistema solar:</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/libKVRa01L8" allowfullscreen></iframe>
+        </section>
+
+        <section id="quiz-container">
+            <h2>Quiz Astronômico</h2>
+            <form id="quiz-form">
+            <fieldset id="quiz"></fieldset>
+            <button type="button" id="submit">Ver resultados</button>
+            </form>
+            <output id="results"></output>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Astronomia Básica</p>
+        </footer>
+    </main>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
