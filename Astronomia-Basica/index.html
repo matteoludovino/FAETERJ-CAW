@@ -42,11 +42,18 @@
 
         <section id="quiz-container">
             <h2>Quiz Astronômico</h2>
-            <form id="quiz-form">
-            <fieldset id="quiz"></fieldset>
-            <button type="button" id="submit">Ver resultados</button>
-            </form>
-            <output id="results"></output>
+            <section class="quiz-game">
+                <section class="questions-container hide">
+                    <p class="question">Pergunta aqui?</p>
+                    <menu class="answers-container">
+
+                    </menu>
+                </section>
+                <menu class="controls-container">
+                    <li><button class="start-quiz button">Começar Quiz!</button></li>
+                    <li><button class="next-question button hide">Próxima pergunta</button></li>
+                </menu>
+            </section>
         </section>
 
         <footer>
@@ -54,6 +61,6 @@
         </footer>
     </main>
 
-    <script src="js/scripts.js"></script>
+    <script src="src/javascript/script.js"></script>
 </body>
 </html>
