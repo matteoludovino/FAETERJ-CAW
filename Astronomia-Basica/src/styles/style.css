@@ -216,6 +216,7 @@ ul.solarsystem li.terra {
     top: 210px;
     left: 370px;
 }
+
 ul.solarsystem li.terra img {
     height: 24px;
     width: 24px;
@@ -230,6 +231,7 @@ ul.solarsystem li.marte {
     top: 180px;
     left: 340px;
 }
+
 ul.solarsystem li.marte img {
     height: 16px;
     width: 16px;
